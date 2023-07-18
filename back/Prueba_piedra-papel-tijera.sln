@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angularapp", "angularapp\angularapp.esproj", "{501738E3-51A4-40DB-83C4-CFF97836A27C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi\webapi.csproj", "{E6622AD0-7D37-42F6-9CA4-F1A6696DF481}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501738E3-51A4-40DB-83C4-CFF97836A27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501738E3-51A4-40DB-83C4-CFF97836A27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501738E3-51A4-40DB-83C4-CFF97836A27C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{501738E3-51A4-40DB-83C4-CFF97836A27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501738E3-51A4-40DB-83C4-CFF97836A27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501738E3-51A4-40DB-83C4-CFF97836A27C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E6622AD0-7D37-42F6-9CA4-F1A6696DF481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6622AD0-7D37-42F6-9CA4-F1A6696DF481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6622AD0-7D37-42F6-9CA4-F1A6696DF481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6622AD0-7D37-42F6-9CA4-F1A6696DF481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD1BE898-53BA-41D8-94A7-29D104E644BB}
+	EndGlobalSection
+EndGlobal
