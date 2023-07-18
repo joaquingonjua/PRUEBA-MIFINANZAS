@@ -42,6 +42,9 @@ export class RoundResultComponent {
       if (this.roundResult == 'p2') {
         this.winnerName = data.p2Name;
       }
+      if (this.roundResult == 'Draw!') {
+        this.winnerName = 'Draw!';
+      }
       this.partidaData = data;
     });
   }

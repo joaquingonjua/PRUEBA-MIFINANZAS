@@ -63,7 +63,11 @@ export class GameComponent {
 
   ngOnInit() {
     this.obtenerPartida();
-    this.getRondasAndGetWinnerGame();
+    try {
+      this.getRondasAndGetWinnerGame();
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   playP1() {

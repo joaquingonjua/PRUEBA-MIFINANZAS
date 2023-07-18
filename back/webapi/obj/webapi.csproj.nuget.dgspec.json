@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Prueba_piedra-papel-tijera\\webapi\\webapi.csproj": {}
+    "C:\\Users\\joaqu\\PRUEBA-MIFINANZAS\\back\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Prueba_piedra-papel-tijera\\webapi\\webapi.csproj": {
+    "C:\\Users\\joaqu\\PRUEBA-MIFINANZAS\\back\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Prueba_piedra-papel-tijera\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Users\\joaqu\\PRUEBA-MIFINANZAS\\back\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Prueba_piedra-papel-tijera\\webapi\\webapi.csproj",
+        "projectPath": "C:\\Users\\joaqu\\PRUEBA-MIFINANZAS\\back\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\joaqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Prueba_piedra-papel-tijera\\webapi\\obj\\",
+        "outputPath": "C:\\Users\\joaqu\\PRUEBA-MIFINANZAS\\back\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",

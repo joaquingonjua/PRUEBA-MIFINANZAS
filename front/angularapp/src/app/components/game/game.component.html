@@ -81,9 +81,13 @@
       <div class="table-winners-container">
         <span class="table-header">Winner</span>
         <div *ngFor="let round of allRounds" class="table-body">
-          {{
-            round.roundResult == "p1" ? partidaData.p1Name : partidaData.p2Name
-          }}
+          <span *ngIf="round.roundResult == 'p1' && partidaData">{{
+            partidaData.p1Name
+          }}</span>
+          <span *ngIf="round.roundResult == 'p2' && partidaData">{{
+            partidaData.p2Name
+          }}</span>
+          <span *ngIf="round.roundResult == 'Draw!' && partidaData">Draw!</span>
         </div>
       </div>
     </div>

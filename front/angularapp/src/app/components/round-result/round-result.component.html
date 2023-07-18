@@ -1,7 +1,13 @@
 <div class="result-text-container">
-  <p class="congrulations-text">Congrulations!!!</p>
-  <p *ngIf="winnerName != null" class="result-text">
+  <p *ngIf="winnerName != 'Draw!'" class="congrulations-text">
+    Congrulations!!!
+  </p>
+  <p *ngIf="winnerName == 'Draw!'" class="congrulations-text">Bad luck!</p>
+  <p *ngIf="winnerName != null && winnerName != 'Draw!'" class="result-text">
     The winner of round is {{ winnerName }}
+  </p>
+  <p *ngIf="winnerName == 'Draw!'" class="result-text">
+    Bad luck, we have a draw
   </p>
   <button mat-raised-button class="btn-start-game" (click)="nextRound()">
     Next round →

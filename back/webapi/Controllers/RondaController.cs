@@ -40,12 +40,12 @@ namespace webapi.Controllers
             {
                 var rondas = await _context.Rondas.Where(ronda => ronda.PartidaId == PartidaId).ToListAsync();
 
-                if (rondas == null || rondas.Count == 0)
-                {
-                    return NotFound();
-                }
+     
 
                 return Ok(rondas);
+
+               
+
             }
             catch (Exception ex)
             {

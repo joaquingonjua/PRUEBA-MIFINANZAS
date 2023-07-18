@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WwZp13Xziu9o6w9fRKegi3Zxigm3AxuSqC9FXHh28hu6q822p3QtY++iswZUpagugwkVt1ieAl6VTvbJvv7gpw==",
+  "dgSpecHash": "BHhKPWVo7d2NGB/X0KTV00CjDoZtFbVUk8QoLRyKKMDBjJ4U8wj9hGP0dw+vIgn3G1bAm8LYBYGVbqJ9UJ1qUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Prueba_piedra-papel-tijera\\webapi\\webapi.csproj",
+  "projectFilePath": "C:\\Users\\joaqu\\PRUEBA-MIFINANZAS\\back\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaqu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
