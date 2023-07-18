@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-container {
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 40vw;
+  font-family: Comics;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-family: Comics;
+}
+
+.mat-label-players {
+  font-family: Comics;
+}
+
+.btn-start-game {
+  width: 100%;
+}

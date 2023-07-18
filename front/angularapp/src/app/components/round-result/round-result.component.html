@@ -1,0 +1,9 @@
+<div class="result-text-container">
+  <p class="congrulations-text">Congrulations!!!</p>
+  <p *ngIf="winnerName != null" class="result-text">
+    The winner of round is {{ winnerName }}
+  </p>
+  <button mat-raised-button class="btn-start-game" (click)="nextRound()">
+    Next round →
+  </button>
+</div>

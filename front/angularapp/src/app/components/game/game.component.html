@@ -1,0 +1,91 @@
+<div class="container">
+  <div *ngIf="checkUrl('gamep1') && partidaData != null" class="game-container">
+    <div class="round-text">Round {{ round }}</div>
+    <div class="player-text">Player 1: {{ partidaData.p1Name }}</div>
+    <form
+      [formGroup]="formP1Move"
+      (ngSubmit)="playP1()"
+      class="form-game-container"
+    >
+      <mat-form-field>
+        <mat-label class="select-text">Your move</mat-label>
+        <mat-select
+          required
+          [(ngModel)]="selectedPlay"
+          formControlName="p1Move"
+        >
+          <mat-option
+            *ngFor="let play of plays"
+            [value]="play.value"
+            class="select-text"
+          >
+            {{ play.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button
+        type="submit"
+        mat-raised-button
+        class="start-game-btn"
+        [disabled]="!selectedPlay"
+      >
+        Play
+      </button>
+    </form>
+  </div>
+  <div *ngIf="checkUrl('gamep2') && partidaData != null" class="game-container">
+    <div class="round-text">Round {{ round }}</div>
+    <div class="player-text">Player 2: {{ partidaData.p2Name }}</div>
+    <form
+      [formGroup]="formP2Move"
+      (ngSubmit)="playP2()"
+      class="form-game-container"
+    >
+      <mat-form-field>
+        <mat-label class="select-text">Your move</mat-label>
+        <mat-select
+          required
+          [(ngModel)]="selectedPlay"
+          formControlName="p2Move"
+        >
+          <mat-option
+            *ngFor="let play of plays"
+            [value]="play.value"
+            class="select-text"
+          >
+            {{ play.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button
+        type="submit"
+        mat-raised-button
+        class="start-game-btn"
+        [disabled]="!selectedPlay"
+      >
+        Play
+      </button>
+    </form>
+  </div>
+  <div class="results-container">
+    <div class="score-text">Score:</div>
+    <div class="table-container">
+      <div class="table-rounds-container">
+        <span class="table-header">Round</span>
+        <div>
+          <div *ngFor="let round of allRounds" class="table-body">
+            {{ round.roundNumber }}
+          </div>
+        </div>
+      </div>
+      <div class="table-winners-container">
+        <span class="table-header">Winner</span>
+        <div *ngFor="let round of allRounds" class="table-body">
+          {{
+            round.roundResult == "p1" ? partidaData.p1Name : partidaData.p2Name
+          }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

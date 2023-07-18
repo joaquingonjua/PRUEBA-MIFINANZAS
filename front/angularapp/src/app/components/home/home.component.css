@@ -1,0 +1,25 @@
+.game-name {
+  margin: 2rem auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: Comics;
+  font-size: 3rem;
+}
+
+.game-rules {
+  font-family: Comics;
+  font-weight: bold;
+  width: 75%;
+  font-size: 1.5rem;
+  margin: 1.5rem auto;
+  line-height: 1.5;
+}
+
+.btn-container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.start-game-btn {
+  width: 100%;
+}

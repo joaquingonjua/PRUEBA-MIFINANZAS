@@ -1,0 +1,20 @@
+<form [formGroup]="formNames" (ngSubmit)="startGame()" class="form-container">
+  <h2 class="form-title">Enter player's names</h2>
+  <mat-form-field>
+    <mat-label class="mat-label-players">Player 1</mat-label>
+    <input formControlName="player1Name" matInput />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label class="mat-label-players">Player 2</mat-label>
+    <input formControlName="player2Name" matInput />
+  </mat-form-field>
+
+  <button
+    [disabled]="formNames.invalid"
+    mat-raised-button
+    class="btn-start-game"
+    type="submit"
+  >
+    Start game
+  </button>
+</form>

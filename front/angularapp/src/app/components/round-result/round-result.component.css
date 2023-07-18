@@ -1,0 +1,21 @@
+.result-text-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Comics;
+  font-weight: bold;
+}
+
+.congrulations-text {
+  font-size: 3.5rem;
+  margin: 2rem auto;
+}
+
+.result-text {
+  font-size: 1.8rem;
+  margin: 2rem auto;
+}

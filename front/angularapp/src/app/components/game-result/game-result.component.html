@@ -1,0 +1,10 @@
+<div class="result-text-container">
+  <p class="congrulations-text">Congrulations!!!</p>
+  <p *ngIf="gameWinnerName !== ''" class="result-text">
+    The winner of the game is
+    {{ gameWinnerName }}
+  </p>
+  <button mat-raised-button class="btn-start-game" (click)="newGame()">
+    New game →
+  </button>
+</div>

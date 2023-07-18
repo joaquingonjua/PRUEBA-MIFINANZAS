@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: Comics;
+  src: url(./assets/fonts/Comicbon.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Comics;
+  background-image: url("./assets/img/sl_072622_51930_13.jpg");
+  background-size: cover;
+}
