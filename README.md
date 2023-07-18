@@ -2,7 +2,7 @@
 
 Este proyecto se compone de dos archivos: uno para el Front y uno para el Back.
 
-Para inicializar el Front se abre la carpeta angularapp en Visual Studio Code y en la terminal se debe ejecutar:
+Para inicializar el Front se abre la carpeta angularapp en Visual Studio Code y en la terminal se debe ejecutar:<br>
 1° npm install
 2° ng serve
 
